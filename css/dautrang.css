@@ -1,0 +1,256 @@
+body{
+    padding: 0px;
+    margin: 0px auto;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url('ban.png');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: rgb(96, 98, 235);
+    color: rgb(243, 47, 139);
+    font-variant: small-caps;
+    float: right;
+    width: 79%;
+    position: relative;
+}
+
+.nav__list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav__list > li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav__list > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.nav__list > li > a:hover {
+    background-color: rgb(147, 238, 211);
+    color: rgb(223, 39, 55);
+}
+
+.container>aside{
+    width: 79%;
+    float: left;
+    position: relative;
+    text-decoration: none;
+    display: block;
+}
+
+.container>article{
+    min-height: 686px;
+    width: 21%;
+    font-size: 150%;
+    background-color: rgb(96, 98, 235);
+    float: left;
+    color: rgb(197, 247, 17);
+    position: relative;
+    
+}
+.dau{
+    font-size: 21px;
+    line-height: 2;
+    text-align: center;
+    height: 39px;
+    border-radius: 3px ;
+    margin: 0px;
+    color: rgb(233, 5, 5);
+}
+
+article > .list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+article>.list>li>a:hover{
+    background-color: aqua;
+    color: red;
+}
+article{
+    display: block;
+}
+
+
+article > .list > li > a {
+    display: block;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container>footer{
+    border-top:5px double orangered ;
+    line-height: 40px;
+    background-color: lightcyan;
+    text-align: center;
+   font-size: large;
+    clear: both;
+    padding: 5px;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: rgb(119, 14, 240);
+    text-decoration: underline;
+}
+header ul.menu li a{
+    position: relative;
+  
+    float: left;
+    line-height: 45px;
+    padding: 0 8px;
+    color: rgb(223, 39, 55);
+    text-decoration: none;
+    
+}
+header ul.menu li{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-variant: small-caps;
+    height: 45px;
+    font-weight: bolder;
+}
+
+.top-right{
+    right: 0px;
+    position: absolute;
+    border-bottom-left-radius: 30px;
+    padding-left: 10px ;
+    background-color: rgb(31, 224, 250);
+    top: 0px;
+}
+.menu >li>a:hover {
+    background-color: rgb(212, 209, 29);
+    color: black;
+}
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+}
+.tchu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.tchu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: red;
+    padding: 0 10px;
+    line-height: 50px;
+}
+.tchu>ul{
+    padding: 0px 17px;
+    margin: 0px auto;
+    list-style: none;
+    top:  7px;
+    border-radius: 3px;
+    text-align: left;
+    position: relative;
+    background-color: #ccf1f7;
+    width: 530px;
+}
+.tchu ul a:hover{
+    color: rgb(55, 18, 116);
+    background-color: azure;
+}
+.nav__list>li>a{
+   position: relative;
+}
+
+.nav__list li ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius: 0 5px;
+    width: 130px;
+    background-color: aqua;
+}
+
+.nav__list li:hover ul{
+    display: block;
+    line-height: 30px;
+    text-decoration: none;   
+    padding: 5px;
+}
+.nav__list li a:hover{
+    color: red;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px;
+}
+.nav__list li a{
+    text-decoration: none;
+    padding: 5px;
+}
+.nav__list li ul li:hover{
+   
+    background-color: yellow;
+}
+*{
+    margin: 0;
+    padding: 0;    
+}
+form{
+    display: block;
+}
+.search{
+    position: relative;
+    width: 19%;
+    background-color: #fff;
+    border-radius: 4px;
+    height: 25px;
+    float: none;
+    left: 5px;
+}
+.search input{    
+    border: none;
+    font-size: 12px;
+    line-height: 14px;
+    width: 100%;
+    border-radius: 4px;
+    height: 25px;
+    padding: 10px;
+}
+.search button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+.icont>img{
+             
+    bottom: 35px;
+    height: 25px;
+    position: 1;
+    position: relative;
+    left: 172px;
+}

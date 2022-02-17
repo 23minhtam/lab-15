@@ -1,0 +1,53 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.col{
+    width: 25%;
+    float: left;
+}
+.prod{
+    background-color: #ccf1f7;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+}
+.col:hover{
+    box-shadow: 0 0 10px red;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: orangered;
+    min-height: 40px;
+}
+.prod> .image{
+    width:98%;
+    height: 138px;
+    padding-bottom: 20px;
+}
+.prod>.price{
+    position: absolute;
+    right: 4px;
+    bottom: 15px;
+    font-family:impact;
+    font-size: 20px;
+    color: rgb(247, 44, 44);
+}
+
+.prod>.icons {
+    position:relative;
+    left: 2px;
+    bottom: 5px;
+    width: 25px;
+    size: 20px;
+   
+}
+
+.prod>.icons>img{
+    width: 98%;
+ }
+ p>image:hover{
+    box-shadow: 0px 10px 10px red;
+ }

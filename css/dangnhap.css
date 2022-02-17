@@ -1,0 +1,18 @@
+form{
+    max-width: 350px;
+    margin: 150px auto;
+    background-color: aquamarine;
+    border-radius: 15px ;
+    padding: 20px;
+}
+.form-group{
+    font-size: 18px;
+    background-color: rgb(146, 146, 204);
+    padding: 15px;
+    color: rgb(141, 14, 46);
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    
+}
